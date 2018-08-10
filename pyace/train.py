@@ -3,7 +3,7 @@
 import os
 import sys
 import numpy
-import cPickle
+import _pickle as cPickle
 import keras
 from keras.models import Sequential
 from keras.models import Model
